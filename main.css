@@ -1,0 +1,31 @@
+.header{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+.main-div{
+    display: block;
+}
+
+.human-div{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.robot-div{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+img {
+    display: inline-block;
+    width: 125px;
+    height:  125px;
+}
+
+.ol-list li{
+    text-align: center;
+    list-style-type: none;
+}
