@@ -5,11 +5,7 @@ function computerPlay(){
     
  }
 
-function displayResluts(textcontent){
-    let olist = document.querySelector(".ol-list");
-    let litem = document.createElement("li");
-    litem.textContent = textcontent;
-    olist.appendChild(litem);
+
 }
 
 function playRound(playerSelection, ComputerSelection){
@@ -37,9 +33,3 @@ function playRound(playerSelection, ComputerSelection){
 }
 
 
-let human_rock = document.querySelector(".human-div-rock");
-let human_paper = document.querySelector(".human-div-paper");
-let human_scissor = document.querySelector(".human-div-scissor");
-human_paper.onclick = () => playRound("paper", ComputerSelection = computerPlay());
-human_rock.onclick = () => playRound("rock", ComputerSelection = computerPlay());
-human_scissor.onclick = () => playRound("scissor", ComputerSelection = computerPlay());
