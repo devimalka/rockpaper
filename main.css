@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.header{
+    font-size: 40px;
+    text-align: center;
+}
+
+.maindiv {
+    display: block;
+}
+
+.human {
+    text-align: center;
+    
+}
+
+.computer{
+    text-align: center;
+   
+}
+.results{
+    display: block;
+    text-align: center;
+}
